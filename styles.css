@@ -20,8 +20,8 @@ h1{
 }
 
 .linea{
-    background-color: #a2231d; /*carmin*/
-    background-color: #550b51;
+    /*background-color: #a2231d;*/ /*carmin*/
+    /*background-color: #550b51;*/
     background-color: #000;
     height: 5px;
     width: 100%;
@@ -122,7 +122,7 @@ h1{
 }
 
 .container {
-    font-size: 33vw;
+    font-size: 40vw;
     color: red;
     animation: 3s ease infinite corazon;
     text-shadow: 4px 4px 25px rgba(255, 0, 0, 0.6);
@@ -139,11 +139,11 @@ h1{
 }
 
 .container .contenido h1 {
-    font-size: 50px;
+    font-size: 75px;
 }
 
 .container .contenido p {
-    font-size: 22px;
+    font-size: 32px;
 }
 
 @keyframes corazon {
@@ -158,12 +158,22 @@ h1{
 
 /*Responsive*/
 
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
     .galeria{
         grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     }
     .close{
         top: 20px;
         right: 20px;
+    }
+    .container{
+        font-size: 50vw;
+    }
+    .container .contenido h1 {
+        font-size: 50px;
+    }
+    
+    .container .contenido p {
+        font-size: 22px;
     }
 }
