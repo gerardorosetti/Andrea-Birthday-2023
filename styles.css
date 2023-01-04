@@ -8,7 +8,7 @@
 
 body{
     font-family: sans-serif;
-    background: #a2231d; /*carmin*/;
+    background: #7e1a25; /*carmin*/;
 }
 
 h1{
@@ -22,6 +22,7 @@ h1{
 .linea{
     background-color: #a2231d; /*carmin*/
     background-color: #550b51;
+    background-color: #000;
     height: 5px;
     width: 100%;
     display: block;
@@ -113,7 +114,7 @@ h1{
 
 /*End Gallery*/
 
-.try{
+.heart{
     display: flex;
     align-items: center;
     justify-content: center;
