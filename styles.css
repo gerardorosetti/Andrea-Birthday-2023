@@ -158,7 +158,7 @@ h1{
 
 /*Responsive*/
 
-@media screen and (max-width:500px){
+@media screen and (max-width:935px){
     .galeria{
         grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     }
@@ -175,5 +175,46 @@ h1{
     
     .container .contenido p {
         font-size: 22px;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .galeria{
+        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    }
+    .close{
+        top: 20px;
+        right: 20px;
+    }
+    .container{
+        font-size: 70vw;
+    }
+    .container .contenido h1 {
+        font-size: 50px;
+    }
+    
+    .container .contenido p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:300px){
+    .galeria{
+        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    }
+    .close{
+        top: 20px;
+        right: 20px;
+    }
+    .container{
+        font-size: 70vw;
+    }
+    .container .contenido h1 {
+        font-size: 35px;
+    }
+    
+    .container .contenido p {
+        font-size: 16px;
     }
 }
